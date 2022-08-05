@@ -1,5 +1,5 @@
 .mainWrapper1 {   
-    /*Faltan las imagenes*/
+  background-image: url(../img/bgA.png);
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,7 +8,7 @@
   }
 
   .mainWrapper2 {
-    /*Faltan las imagenes*/
+    background-image: url(../img/bgB.png);
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +21,7 @@
   }
   
   .sec2 {
-    background-color: rgb(10, 10, 10);
+    background-color: $sectionBg;
     height: 460px;
     padding: 20px 0;
   }
@@ -66,14 +66,14 @@
   
     h4 {
       padding: 10px 0;
-      color: white;
+      color: $textW;
       font-size: 32px;
       font-weight: 700;
     }
   
     p {
       padding: 20px 0;
-      color: white;
+      color: $textW;
       font-size: 16px;
       font-weight: 400;
     }
@@ -103,19 +103,19 @@
   .big {
     font-size: 36px;
     font-weight: 600;
-    color: white;
+    color: $textW;
   }
   
   .mid {
     font-size: 24px;
     font-weight: 400;
-    color: white;
+    color: $textW;
   }
   
   .small {
     font-size: 16px;
     font-weight: 300;
-    color: white;
+    color: $textW;
   }
   
   .sec3 h3 {

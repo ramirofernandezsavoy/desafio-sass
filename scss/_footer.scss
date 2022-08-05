@@ -1,6 +1,6 @@
 footer {
     height: 200px;
-    background-color: black;
+    background-color: $sectionBg;
     padding: 30px;
   }
   
@@ -24,14 +24,14 @@ footer {
     }
   
     p {
-      color: white;
+      color: $textW;
       font-size: 12px;
     }
   }
   
   .footerText a {
     text-decoration: none;
-    color: white;
+    color: $textW;
   }
   
   .footerContact {
@@ -48,7 +48,7 @@ footer {
   
       p {
         font-weight: 500;
-        color: white;
+        color: $textW;
       }
     }
   }
