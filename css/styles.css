@@ -78,10 +78,10 @@ header p {
 
 .mainWrapper2 {
   background-image: url(../img/bgB.png);
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: rgba(240, 248, 255, 0.623);
+  background-color: rgba(240, 248, 255, 0.87);
   background-blend-mode: overlay; }
 
 .sec1 {
