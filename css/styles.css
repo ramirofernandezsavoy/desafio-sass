@@ -214,8 +214,7 @@ footer {
 nav a:hover {
   transition: 1.5s;
   background-color: #8b6b2b;
-  border-radius: 5px;
-  transform: scale(120%); }
+  border-radius: 5px; }
 
 .btn:hover {
   transform: scale(120%);

@@ -32,25 +32,25 @@ header {
     div {
       border: 3px white solid;
       padding: 20px;
-      background-color: rgba(0, 0, 0, 0.342);
+      background-color: map-get($map: $paleta, $key: secBgA);
     }
   
     h1 {
-      color: $textW;
+      color: map-get($map: $paleta, $key: txtW);
       font-size: 64px;
       font-weight: 800;
       text-align: center;
     }
   
     h2 {
-      color: $textW;
+      color: map-get($map: $paleta, $key: txtW);
       font-size: 56px;
       font-weight: 800;
       text-align: center;
     }
   
     p {
-      color: $textW;
+      color: map-get($map: $paleta, $key: txtW);
       font-size: 18px;
       text-align: center;
     }

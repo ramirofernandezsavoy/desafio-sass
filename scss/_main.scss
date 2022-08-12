@@ -21,7 +21,7 @@
   }
   
   .sec2 {
-    background-color: $sectionBg;
+    background-color: map-get($map: $paleta, $key: secBg);
     height: 460px;
     padding: 20px 0;
   }
@@ -66,14 +66,14 @@
   
     h4 {
       padding: 10px 0;
-      color: $textW;
+      color: map-get($map: $paleta, $key: txtW);
       font-size: 32px;
       font-weight: 700;
     }
   
     p {
       padding: 20px 0;
-      color: $textW;
+      color: map-get($map: $paleta, $key: txtW);
       font-size: 16px;
       font-weight: 400;
     }
@@ -103,19 +103,19 @@
   .big {
     font-size: 36px;
     font-weight: 600;
-    color: $textW;
+    color: map-get($map: $paleta, $key: txtW);
   }
   
   .mid {
     font-size: 24px;
     font-weight: 400;
-    color: $textW;
+    color: map-get($map: $paleta, $key: txtW);
   }
   
   .small {
     font-size: 16px;
     font-weight: 300;
-    color: $textW;
+    color: map-get($map: $paleta, $key: txtW);
   }
   
   .sec3 h3 {

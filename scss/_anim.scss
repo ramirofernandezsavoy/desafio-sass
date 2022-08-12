@@ -1,8 +1,7 @@
 nav a:hover {
     transition: 1.5s;
-    background-color: $solidHighlightHover;
-    border-radius: 5px;
-    transform: scale(120%);
+    background-color: map-get($map: $paleta, $key: solidHlHover);
+    border-radius: 5px;    
   }
   
   .btn:hover {
@@ -19,7 +18,7 @@ nav a:hover {
   
     &::after {
       content: "";
-      background-color: $solidHighlight;
+      background-color: map-get($map: $paleta, $key: solidHl);;
       position: absolute;
       left: 0;
       height: 2px;

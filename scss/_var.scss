@@ -1,10 +1,13 @@
 // Color Palette =========================================================
-$textW: white;
-$textB: black;
-$textHighlight: #d9534f;
-$solidHighlight: #f0ad4e;
-$solidHighlightHover: #8b6b2b;
-$sectionBg: black;
+$paleta: (
+    "txtW": white,
+    "txtB": black,
+    "txtHl": #d9534f,
+    "solidHl": #f0ad4e,
+    "solidHlHover": #8b6b2b,
+    "secBg": black,
+    "secBgA": rgba(0, 0, 0, 0.342),
+);
 
 // Fonts ================================================================
 // Fuentes aun a designar.
