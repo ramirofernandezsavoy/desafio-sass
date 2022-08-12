@@ -68,21 +68,20 @@ header p {
   font-size: 18px;
   text-align: center; }
 
+.mainWrapper, .mainWrapper1 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay; }
+
 .mainWrapper1 {
   background-image: url(../img/bgA.png);
   background-position: right;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: rgba(240, 248, 255, 0.623);
-  background-blend-mode: overlay; }
+  background-color: rgba(240, 248, 255, 0.623); }
 
 .mainWrapper2 {
   background-image: url(../img/bgB.png);
   background-position: left;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: rgba(240, 248, 255, 0.87);
-  background-blend-mode: overlay; }
+  background-color: rgba(240, 248, 255, 0.87); }
 
 .sec1 {
   padding: 90px 0; }
@@ -95,7 +94,8 @@ header p {
 .sec2div {
   display: flex; }
 
-.sec3, .sec4 {
+.sec3,
+.sec4 {
   padding: 50px 0; }
 
 .sec1 p {
@@ -103,10 +103,15 @@ header p {
 
 .sec1 h3 {
   font-size: 42px;
-  font-weight: 700; }
+  font-weight: 600; }
 
 .sec1 h2 {
   font-size: 20px; }
+
+.vTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
 
 .vImg img {
   border-radius: 10px; }
