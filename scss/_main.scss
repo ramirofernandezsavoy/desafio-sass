@@ -12,9 +12,10 @@
 }
 
 .mainWrapper2 {
+  @extend .mainWrapper;
   background-image: url(../img/bgB.png);
   background-position: left;
-  background-color: rgba(240, 248, 255, 0.87);
+  background-color: rgba(240, 248, 255, 0.87);  
 }
 
 .sec1 {
