@@ -11,8 +11,10 @@ $paleta: (
 
 // Fonts ================================================================
 // Fuentes aun a designar.
-$textPlain: none;
-$textBold: none;
-$HeadlineBold: none;
-$HeadlinePlain: none;
 
+@mixin font1 ($size, $weight, $family){
+    font-size: $size; 
+    font-weight: $weight;
+    font-family: $family;
+    
+}

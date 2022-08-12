@@ -43,12 +43,11 @@
   }
 
   h3 {
-    font-size: 42px;
-    font-weight: 600;
+    @include font1 (42px, 600, Helvetica);
   }
 
   h2 {
-    font-size: 20px;
+    @include font1 (20px, 600, Helvetica);
   }
 }
 
@@ -76,15 +75,13 @@
   h4 {
     padding: 10px 0;
     color: map-get($map: $paleta, $key: txtW);
-    font-size: 32px;
-    font-weight: 700;
+    @include font1 (32px, 700, Helvetica);
   }
 
   p {
     padding: 20px 0;
     color: map-get($map: $paleta, $key: txtW);
-    font-size: 16px;
-    font-weight: 400;
+    @include font1 (16px, 400, Helvetica);
   }
 }
 

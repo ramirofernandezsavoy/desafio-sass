@@ -52,15 +52,17 @@ header div {
   background-color: rgba(0, 0, 0, 0.342); }
 
 header h1 {
-  color: white;
   font-size: 64px;
   font-weight: 800;
+  font-family: Helvetica;
+  color: white;
   text-align: center; }
 
 header h2 {
-  color: white;
   font-size: 56px;
   font-weight: 800;
+  font-family: Helvetica;
+  color: white;
   text-align: center; }
 
 header p {
@@ -103,10 +105,13 @@ header p {
 
 .sec1 h3 {
   font-size: 42px;
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: Helvetica; }
 
 .sec1 h2 {
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Helvetica; }
 
 .vTxt {
   display: flex;
@@ -129,12 +134,14 @@ header p {
     padding: 10px 0;
     color: white;
     font-size: 32px;
-    font-weight: 700; }
+    font-weight: 700;
+    font-family: Helvetica; }
   .infoText p {
     padding: 20px 0;
     color: white;
     font-size: 16px;
-    font-weight: 400; }
+    font-weight: 400;
+    font-family: Helvetica; }
 
 .btn2 {
   width: 150px; }

@@ -36,17 +36,15 @@ header {
     }
   
     h1 {
-      color: map-get($map: $paleta, $key: txtW);
-      font-size: 64px;
-      font-weight: 800;
+      @include font1 (64px, 800, Helvetica);      
+      color: map-get($map: $paleta, $key: txtW);      
       text-align: center;
     }
   
     h2 {
-      color: map-get($map: $paleta, $key: txtW);
-      font-size: 56px;
-      font-weight: 800;
-      text-align: center;
+      @include font1 (56px, 800, Helvetica);
+      color: map-get($map: $paleta, $key: txtW);      
+      text-align: center;      
     }
   
     p {
